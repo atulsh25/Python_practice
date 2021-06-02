@@ -1,3 +1,6 @@
 My name is Atul
+X-DSAM-Confidence: 0.8555
 I am working in Legato 
+X-DSAM-Confidence: 3
 I am leading a healthy life
+X-DSAM-Confidence: 0.8475
