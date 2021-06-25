@@ -38,3 +38,6 @@ result_df = merged_df[['date',
                        'tests_per_million']]
 result_df.to_csv('results.csv', index=None)#this will push the data from a data frame to a csv file
 #as we do not want to retain the information about index so it is set to None
+result_df.new_cases.plot()#this plots the graph the data in a series
+result_df.set_index('date',inplace=True)#this sets the index column as a particular defined column
+result_df.new_deaths.plot(title='New Deaths bar graph',kind='bar')#we can define the nature of the graph as well
