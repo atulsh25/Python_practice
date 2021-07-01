@@ -15,3 +15,4 @@ plt.xlabel('Year')#this represents the label that will be given to the x axis
 plt.ylabel('Yield tons per hectare')#this represents the label that will be given to the y axis
 plt.title('Crop yields in Kanto')#this will lable the entire chart
 plt.legend(['Apples','Oranges'])#this will help in labelling the line graph to indicate the detailing
+plt.show()
