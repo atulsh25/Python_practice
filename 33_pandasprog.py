@@ -5,8 +5,8 @@ urlretrieve(italy_covid_url, 'italy-covid-daywise.csv')
 import pandas as pd
 covid_df=pd.read_csv('italy-covid-daywise.csv')
 print(covid_df)
-print(covid_df.info())
-print(covid_df.describe())#this will the mathematical details such as count mean and other details
+print(covid_df.info())#this will give the nature of the data frame with respect to the columns
+print(covid_df.describe())#this will give the mathematical details such as count mean and other details
 print(covid_df.columns)#this will give the column details of the data frame
 print(covid_df.shape)#this give the rows and column details in the data frame
 print(covid_df['new_cases'])#this returns the list of complete data in that column header
