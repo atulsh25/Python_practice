@@ -8,7 +8,7 @@ plt.plot(years,oranges,markers='x')#the markers can be added to the line graph t
 #OR
 #fmt'[marker][line][color]' formatting can be used to represent the graphs formatting
 #plt.plot(years, apples, 's-b')
-#plt.plot(years, ora,nges, 'o--r')
+#plt.plot(years, oranges, 'o--r')
 plt.figure(figsize=(8,6))#this will help in changing the size of the plotted graph
 #sns.set_style("whitegrid")#this can only be used when we are using a marker format
 plt.xlabel('Year')#this represents the label that will be given to the x axis
