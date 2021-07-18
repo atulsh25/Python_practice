@@ -17,13 +17,3 @@ print("----------------------------------")
 for item in enumerate(words,1):#the second argument 1 here defines that the enumeration will start from 1
     print(item)
 print("----------------------------------")
-zipped_list=zip(mynum,words,games)
-for a,b,c in zipped_list:
-    print(a)
-    print(c)
-    print(b)
-print("----------------------------------")   
-print(2 in mynum)#the in method is used to check whether a value exist in a list or dictionary
-                #in dictionary it only checks for the key and not for the value
-print(140 in {'john':140}.values())#by this we can check the values in a dictionary
-print(max(mynum))#this returns the maximum value in a list
